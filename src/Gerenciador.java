@@ -11,7 +11,6 @@ public class Gerenciador {
         if(produto == null){
             throw new IllegalArgumentException("O produto não pode ser nulo");
         }
-        System.out.println("Produto cadastrado com Sucesso !");
         listaProdutos.add(produto);
     }
 
